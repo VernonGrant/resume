@@ -1,7 +1,7 @@
 .PHONY: build clean
 
 build:
-	pdflatex ./example-c.tex
+	pdflatex ./resume.tex
 
 clean:
 	rm ./*.{aux,log,pdf,toc}
