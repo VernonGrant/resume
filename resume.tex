@@ -65,12 +65,13 @@
 \begin{tikzpicture}[fill=white]
   %% Outer rectangle
   \draw[anchor=north west, color=black] (0,0) rectangle (18,3);
+  \draw[anchor=north west, pattern=north east lines, pattern color=black!10] (0,0) rectangle (9,3);
 
   %% Profile photo
   \node[inner sep=0pt, anchor=north west] (Vernon Grant) at (0,3)
        {\includegraphics[width=2.9855cm]{profile.jpg}};
        \draw (3.43,2.4) node[anchor=north west] (a) {\Huge Vernon Grant};
-       \draw (4.35,1.35) node[text=black!50, anchor=north west] (b) {\Large {\emph {Web Developer}}};
+       \draw (4.35,1.35) node[text=black!50, anchor=north west] (b) {\Large Web Developer};
 
        %% Social media
        \draw[fill=white] (9,3) rectangle (13,2) node[pos=.5] {\href{https://github.com/VernonGrant}{\ExternalLink GitHub}};
@@ -90,7 +91,7 @@
 
 \noindent
 \begin{tikzpicture}[fill=white]
-  \draw (0,0) rectangle (9,1) node at (4.5,.5) {\large Summary Statement};
+  \draw[pattern=north east lines, pattern color=black!10] (0,0) rectangle (9,1) node at (4.5,.5) {\large Summary Statement};
   \draw[color=black] (9,0.5) -- (18,0.5);
 \end{tikzpicture}
 
@@ -104,7 +105,7 @@
 
 \noindent
 \begin{tikzpicture}[fill=white]
-  \draw (0,0) rectangle (9,1) node at (4.5,.5) {\large Professional Experience};
+  \draw[pattern=north east lines, pattern color=black!10] (0,0) rectangle (9,1) node at (4.5,.5) {\large Professional Experience};
   \draw[color=black] (9,0.5) -- (18,0.5);
 \end{tikzpicture}
 
@@ -141,7 +142,7 @@
 
 \noindent
 \begin{tikzpicture}[fill=white]
-  \draw (0,0) rectangle (9,1) node at (4.5,.5) {\large Recent Projects};
+  \draw[pattern=north east lines, pattern color=black!10] (0,0) rectangle (9,1) node at (4.5,.5) {\large Recent Projects};
   \draw[color=black] (9,0.5) -- (18,0.5);
 \end{tikzpicture}
 \break
@@ -189,7 +190,7 @@
 
 \noindent
 \begin{tikzpicture}[fill=white]
-  \draw (0,0) rectangle (9,1) node at (4.5,.5) {\large Higher Education};
+  \draw[pattern=north east lines, pattern color=black!10] (0,0) rectangle (9,1) node at (4.5,.5) {\large Higher Education};
   \draw[color=black] (9,0.5) -- (18,0.5);
 \end{tikzpicture}
 
@@ -208,7 +209,7 @@
 
 \noindent
 \begin{tikzpicture}[fill=white]
-  \draw (0,0) rectangle (9,1) node at (4.5,.5) {\large Experienced In};
+  \draw[pattern=north east lines, pattern color=black!10] (0,0) rectangle (9,1) node at (4.5,.5) {\large Experienced In};
   \draw[color=black] (9,0.5) -- (18,0.5);
 \end{tikzpicture}
 \break
@@ -217,33 +218,33 @@
 \begin{tikzpicture}[fill=white]
   \draw[anchor=north west, color=black] (0,0) rectangle (18,3);
 
-  \draw[fill=white] (0,3) rectangle (3,2) node[pos=.5] {\textbf{PHP}};
+  \draw[fill=white,pattern=north east lines, pattern color=black!10] (0,3) rectangle (3,2) node[pos=.5] {\textbf{PHP}};
   \draw[fill=white] (0,2) rectangle (3,1) node[pos=.5] {WordPress};
   \draw[fill=white] (0,1) rectangle (3,0) node[pos=.5] {Laravel};
   \draw[fill=white] (0,0) rectangle (3,-1) node[pos=.5] {Symfony};
 
-  \draw[fill=white] (3,3) rectangle (6,2) node[pos=.5] {\textbf{JavaScript}};
+  \draw[fill=white,pattern=north east lines, pattern color=black!10] (3,3) rectangle (6,2) node[pos=.5] {\textbf{JavaScript}};
   \draw[fill=white] (3,2) rectangle (6,1) node[pos=.5] {Node.js};
   \draw[fill=white] (3,1) rectangle (6,0) node[pos=.5] {React};
   \draw[fill=white] (3,0) rectangle (6,-1) node[pos=.5] {Vue.js};
 
-  \draw[fill=white] (6,3) rectangle (9,2) node[pos=.5] {\textbf{SQL}};
+  \draw[fill=white,pattern=north east lines, pattern color=black!10] (6,3) rectangle (9,2) node[pos=.5] {\textbf{SQL}};
   \draw[fill=white] (6,2) rectangle (9,1) node[pos=.5] {MySQL};
   \draw[fill=white] (6,1) rectangle (9,0) node[pos=.5] {PostgreSQL};
   \draw[fill=white] (6,0) rectangle (9,-1) node[pos=.5] {SQL Light};
 
-  \draw[fill=white] (9,3) rectangle (12,2) node[pos=.5] {\textbf{Lisp}};
+  \draw[fill=white,pattern=north east lines, pattern color=black!10] (9,3) rectangle (12,2) node[pos=.5] {\textbf{Lisp}};
   \draw[fill=white] (9,2) rectangle (12,1) node[pos=.5] {Clojure};
   \draw[fill=white] (9,1) rectangle (12,0) node[pos=.5] {Babashka};
   \draw[fill=white] (9,0) rectangle (12,-1) node[pos=.5] {Emacs Lisp};
 
-  \draw[fill=white] (12,3) rectangle (15,2) node[pos=.5] {\textbf{Tools}};
+  \draw[fill=white,pattern=north east lines, pattern color=black!10] (12,3) rectangle (15,2) node[pos=.5] {\textbf{Tools}};
   \draw[fill=white] (12,2) rectangle (15,1) node[pos=.5] {Bash};
   \draw[fill=white] (12,1) rectangle (15,0) node[pos=.5] {Make};
   \draw[fill=white] (12,0) rectangle (15,-1) node[pos=.5] {Docker};
   \draw[fill=white] (12,-1) rectangle (15,-2) node[pos=.5] {Linux};
 
-  \draw[fill=white] (15,3) rectangle (18,2) node[pos=.5] {\textbf{Quality}};
+  \draw[fill=white,pattern=north east lines, pattern color=black!10] (15,3) rectangle (18,2) node[pos=.5] {\textbf{Quality}};
   \draw[fill=white] (15,2) rectangle (18,1) node[pos=.5] {Design Patterns};
   \draw[fill=white] (15,1) rectangle (18,0) node[pos=.5] {Version Control};
   \draw[fill=white] (15,0) rectangle (18,-1) node[pos=.5] {OOP};
